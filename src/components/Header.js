@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from 'react-icons/bs'
+import { BiMenuAltRight } from 'react-icons/bi'
 import Logo from '../assets/logo.png'
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="information">
-                <div>Inscription</div>
+                <div className='inscription'>Inscription</div>
                 <div className='header-right'>
                     <div className='phone'>
                         <BsFillTelephoneFill />
@@ -25,6 +26,9 @@ const Header = () => {
                         <p>info@yoursite.com</p>
                     </div>
                 </div>
+            </div>
+            <div className='burger-menu'>
+                <BiMenuAltRight size={30} />
             </div>
         </nav>
 

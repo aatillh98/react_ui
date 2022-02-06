@@ -34,12 +34,16 @@ const Accueil = () => {
                     <h2>Always give people more than they expect to get</h2>
                     <h1>LOREM IPSUM DOLOR SIT</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero et in quod accusantium totam nam inventore, illum.</p>
-                    <div className='button'><button >Get Started Now</button></div>
+                    <button className='button'>Get Started Now</button>
                 </div>
             </div>
 
-            <section className="content section1">SECTION</section>
-            <section className="content section2">SECTION</section>
+            <section className="content section1">
+
+            </section>
+            <section className="content section2">
+                
+            </section>
         </>
     );
 };
